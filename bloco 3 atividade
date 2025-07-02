@@ -1,0 +1,35 @@
+
+int exercicio11() {
+    int x = 10;
+    int* p = &x;
+    cout << *p << " - Endereco: " << p << endl;
+    return 0;
+}
+
+12)
+void dobrar(int* p) {
+    *p *= 2;
+}
+
+13)
+void trocar(int* a, int* b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+14)
+void mostrarVetor(int* v, int tamanho) {
+    for (int i = 0; i < tamanho; i++) {
+        cout << v[i] << " ";
+    }
+    cout << endl;
+}
+
+15)
+void aprovado(float* nota) {
+    if (*nota >= 7)
+        cout << "Aprovado" << endl;
+    else
+        cout << "Reprovado" << endl;
+}
