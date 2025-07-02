@@ -1,4 +1,3 @@
-// BLOCO 1 – VARIÁVEIS, CONSTANTES E TIPOS DE DADOS
 
 int exercicio1() {
     int inteiro = 10;
