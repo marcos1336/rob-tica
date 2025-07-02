@@ -1,0 +1,54 @@
+6.
+
+cpp
+Copiar
+Editar
+int soma(int a, int b) {
+    return a + b;
+}
+7.
+
+cpp
+Copiar
+Editar
+bool ehPar(int n) {
+    return n % 2 == 0;
+}
+8.
+
+cpp
+Copiar
+Editar
+void mostrarMensagem() {
+    cout << "Olá, bem-vindo ao programa!" << endl;
+}
+9.
+
+cpp
+Copiar
+Editar
+int quadrado(int x) {
+    return x * x;
+}
+
+#include <iostream>
+using namespace std;
+
+// Função que retorna o maior entre dois floats
+float maior(float a, float b) {
+    return (a > b) ? a : b;
+}
+
+10)
+int main() {
+    float num1, num2;
+
+    cout << "Digite dois numeros reais: ";
+    cin >> num1 >> num2;
+
+    float resultado = maior(num1, num2);
+
+    cout << "O maior numero é: " << resultado << endl;
+
+    return 0;
+}
