@@ -1,0 +1,25 @@
+
+6)
+int soma(int a, int b) {
+    return a + b;
+}
+
+7)
+bool ehPar(int n) {
+    return n % 2 == 0;
+}
+
+8)
+void mostrarMensagem() {
+    cout << "Bem-vindo ao programa!" << endl;
+}
+
+9)
+int quadrado(int n) {
+    return n * n;
+}
+
+10)
+float maior(float a, float b) {
+    return (a > b) ? a : b;
+}
